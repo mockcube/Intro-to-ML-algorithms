@@ -1,4 +1,4 @@
-# Copyright 2021 The Bellman Contributors
+# Copyright 2022 mockcube
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,12 +39,12 @@ extras_require = {"mujoco-py": ["mujoco-py>=2.0,<2.1"]}
 setup_kwargs = {
     "name": "bellman",
     "version": version,
-    "description": "A Toolbox for Model-Based Reinforcement Learning in TensorFlow",
+    "description": "An Introduction to Machine Learning Algorithms in Python",
     "long_description": long_description,
     "long_description_content_type": "text/markdown",
     "license": "Apache License 2.0",
-    "author": "The Bellman Contributors",
-    "author_email": "bellman-devs@protonmail.com",
+    "author": "mockcube",
+    "author_email": "jorgehaniel1@gmail.com",
     "classifiers": [
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: Apache Software License",
@@ -52,15 +52,15 @@ setup_kwargs = {
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
     "keywords": "machine-learning reinforcement-learning deep-learning tensorflow",
-    "maintainer": "The Bellman Maintainers",
-    "maintainer_email": "bellman-devs@protonmail.com",
-    "url": "https://bellman-dev",
+    "maintainer": "mockcube",
+    "maintainer_email": "jorgehaniel1@gmail.com",
+    "url": "https://mockcube",
     "project_urls": {
-        "Source on GitHub": "https://github.com/Bellman-devs/bellman",
-        "Issue tracker": "https://github.com/Bellman-devs/bellman/issues",
-        "Documentation": "https://bellman-dev/docs/latest",
+        "Source on GitHub": "https://github.com/mockcube/Intro-to-ML-Algorithms",
+        "Issue tracker": "https://github.com/mockcube/Intro-to-ML-Algorithms/issues",
+        "Documentation": "https://mockcube/docs/latest",
     },
-    "packages": find_packages(include=("bellman*",)),
+    "packages": find_packages(include=("*",)),
     "package_data": package_data,
     "install_requires": install_requires,
     "extras_require": extras_require,
